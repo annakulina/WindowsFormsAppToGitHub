@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.buttonAndrejs = new System.Windows.Forms.Button();
+            this.buttonAnna = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -50,11 +51,22 @@
             this.buttonAndrejs.UseVisualStyleBackColor = true;
             this.buttonAndrejs.Click += new System.EventHandler(this.button1_Click);
             // 
+            // buttonAnna
+            // 
+            this.buttonAnna.Location = new System.Drawing.Point(342, 162);
+            this.buttonAnna.Name = "buttonAnna";
+            this.buttonAnna.Size = new System.Drawing.Size(75, 23);
+            this.buttonAnna.TabIndex = 2;
+            this.buttonAnna.Text = "buttonAnna";
+            this.buttonAnna.UseVisualStyleBackColor = true;
+            this.buttonAnna.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(502, 290);
+            this.Controls.Add(this.buttonAnna);
             this.Controls.Add(this.buttonAndrejs);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -68,6 +80,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonAndrejs;
+        private System.Windows.Forms.Button buttonAnna;
     }
 }
 
